@@ -322,3 +322,9 @@ table {
     padding-right: 20px; }
 
 /*# sourceMappingURL=sample.css.map */
+
+#contents #main th, #contents #main td {
+    padding: 20px 0;
+    padding-right: 0px;
+    color: #626262;
+}
