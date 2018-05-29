@@ -316,15 +316,8 @@ h1 {
 
 table {
   color: #626262;
-  padding: 20px 0;
   font-size: 1.4rem; }
   table th {
     padding-right: 20px; }
 
 /*# sourceMappingURL=sample.css.map */
-
-#contents #main th, #contents #main td {
-    padding: 20px 0;
-    padding-right: 0px;
-    color: #626262;
-}

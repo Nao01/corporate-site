@@ -17,58 +17,46 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/sample.css">
+  <link rel="stylesheet" href="css/sample.css"
   
 
 
 
   <!-- Favicon
-  ––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
 <body>
-  <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.0';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<header>
+  <header>
   <div id="header_in" class="container">
     <div class="row">
       <div class="six columns logo">
-
-        <h1><a href="index.html"><img class="u-max-full-width" src="images/top/logo.png" alt="株式会社サンプル" srcset="images/top/logo@2x.png"></a></h1>
-
-      </div>
+        
+        <img class="u-max-full-width" src="images/top/logo.png" alt=”株式会社サンプル” srcset="images/top/logo@2x.png">
+        
+      </div> 
       <div class="six columns navi">
-
+        
         <div class="sp_navi">
           <img id="sp_navi_btn" class="u-max-full-width" src="images/top/sp_navi.png" alt="sp_navi" srcset="images/top/sp_navi@2x.png">
-
-          <ul class="sp_navi_li">
-            <li><a href="index.html">TOPページ</a></li>
-            <li><a href="news.html">ニュースリリース</a></li>
-            <li><a href="company.html">会社概要</a></li>
-          </ul>
-        </div>
+        
+        <ul class="sp_navi_li">
+          <li><a href="index.html">TOPページ</a></li>
+          <li><a href="news.html">ニュースリリース</a></li>
+          <li><a href="company.html">会社概要</a></li>
+      </ul>
+    </div>
         <!-- sp_navi -->
-        
-        
-        <div class="pc_navi">
+<div class="pc_navi">
 
-          <ul class="pc_navi_li">
-            <li class="navi_toppage"><a href="index.html">TOPページ</a></li>
-            <li class="navi_news"><a href="news.html">ニュースリリース</a></li>
-            <li class="navi_company"><a href="company.html">会社概要</a></li>
-          </ul>
+  <ul class="pc_navi_li">
+    <li class="navi_toppage"><a href="index.html">TOPページ</a></li>
+    <li class="navi_news"><a href="news.html">ニュースリリース</a></li>
+    <li class="navi_company"><a href="company.html">会社概要</a></li>
+  </ul>
 
-        </div>
-        <!-- pc_navi -->
-
+</div>
       </div>
     </div>
     <!-- row -->
@@ -165,6 +153,19 @@
   </div>
 </footer>
 <!-- //footer -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+  $(function(){
+    $(document).ready(function(){
+
+      $("#sp_navi_btn").click(function () {
+        $(this).next().slideToggle();
+      });
+
+    });
+  });
+
+</script>
 
 </body>
 </html>
