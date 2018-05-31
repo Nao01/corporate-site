@@ -280,8 +280,9 @@ header{
       span{
         color: $blue1;
         font-weight: bold;
-        display: block;
-        margin-bottom: 3px;
+        display: inline-block;
+        margin-bottom: 0px;
+        padding-right:10px;
       }
     }
     // li
@@ -476,6 +477,7 @@ h1{
 }
 #contents{
   padding-top:20px;
+  padding-bottom:20px;
   @media(min-width:551px){
   padding-top:35px;
   padding-bottom:70px;
@@ -488,21 +490,28 @@ h1{
     border-bottom:3px solid $blue1;
     font-weight:bold;
     font-size:1.5rem;
-    padding-bottom:15px;
+    padding-bottom:20px;
   }
-  @media(min-width: 551px){
+  @media(max-width: 55px){
     h2{
       font-size:2rem;
     padding-bottom:20px;
+    margin-bottom:0px;
   }
   }
 }
 
 .news_li{
   list-style:none;
+  padding-bottom:5px;
+  
   span{
   color:$blue1;
   font-weight:bold;
+  padding-right:10px;
+  @media(max-width:550px){
+     display:block;
+  }
 }
 }
 #sidebar{
@@ -539,13 +548,13 @@ h1{
    }
 }
 .company_title{
-  h2{
-    margin-bottom:0px;
+    margin-bottom: 0px;
 }
-}
+
 table{color: #626262;
   font-size: 1.4rem;
   th{
+    padding:20px 0;
   padding-right: 20px;
 }
 }
