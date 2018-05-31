@@ -558,3 +558,13 @@ table{color: #626262;
   padding-right: 20px;
 }
 }
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 16px;
+    height: 16px;
+    border-radius: 0px !important;
+}
