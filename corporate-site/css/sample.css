@@ -274,7 +274,7 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
   padding-bottom: 20px; }
-@media (max-width: 55px) {
+@media (min-width: 550px) {
   #main h2 {
     font-size: 2rem;
     padding-bottom: 20px;
@@ -328,5 +328,14 @@ table {
   table th {
     padding: 20px 0;
     padding-right: 20px; }
+
+#wrapper {
+  width: 80%;
+  margin: 0 auto; }
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 16px;
+  height: 16px;
+  border-radius: 0px !important; }
 
 /*# sourceMappingURL=sample.css.map */

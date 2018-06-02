@@ -489,10 +489,10 @@ h1{
     color: $blue1;
     border-bottom:3px solid $blue1;
     font-weight:bold;
-    font-size:1.5rem;
+    font-size: 1.5rem;
     padding-bottom:20px;
   }
-  @media(max-width: 55px){
+  @media(min-width: 550px){
     h2{
       font-size:2rem;
     padding-bottom:20px;
